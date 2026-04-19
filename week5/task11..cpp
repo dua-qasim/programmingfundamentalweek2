@@ -22,28 +22,28 @@ int main() {
         
         
                 else if(choice) {
-            case 1:
+            case 1;
                 cout << "Enter first number: ";
                 cin >> num1;
                 cout << "Enter second number: ";
                 cin >> num2;
                 cout << "Result: " << num1 + num2 << endl;
                 break;
-            case 2:
+            case 2;
                 cout << "Enter first number: ";
                 cin >> num1;
                 cout << "Enter second number: ";
                 cin >> num2;
                 cout << "Result: " << num1 - num2 << endl;
                 break;
-            case 3:
+            case 3;
                 cout << "Enter first number: ";
                 cin >> num1;
                 cout << "Enter second number: ";
                 cin >> num2;
                 cout << "Result: " << num1 * num2 << endl;
                 break;
-            case 4:
+            case 4;
                 cout << "Enter first number: ";
                 cin >> num1;
                 cout << "Enter second number: ";
@@ -53,14 +53,14 @@ int main() {
                 else
                     cout << "Error: Division by zero!" << endl;
                 break;
-            case 5:
+            case 5;
                 system("cls"); // Use "clear" for Linux/Mac
                 cout << "Screen cleared." << endl;
                 break;
-            case 6:
+            case 6;
                 cout << "Exiting Calculator. Goodbye!" << endl;
                 break;
-            default:
+            
                 cout << "Invalid choice! Try again." << endl;
         }
     } while (choice != 6);
